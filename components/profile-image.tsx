@@ -25,7 +25,7 @@ export function ProfileImage({
   return (
     <button
       type="button"
-      // onClick={() => (isSignedIn ? toggleSidebar() : openSignIn())}
+      onClick={() => (isSignedIn ? toggleSidebar() : openSignIn())}
       className="relative aspect-square rounded-2xl overflow-hidden border-4 border-primary/20 block group cursor-pointer w-full"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

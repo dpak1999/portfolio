@@ -1,3 +1,9 @@
+import PortfolioContent from "@/components/portfolio-content";
+
 export default function Home() {
-  return <div>Helloo</div>;
+  return (
+    <main className="min-h-screen ">
+      <PortfolioContent />
+    </main>
+  );
 }
