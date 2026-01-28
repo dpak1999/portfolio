@@ -5,6 +5,7 @@
       "name": "portfolio",
       "dependencies": {
         "@clerk/nextjs": "^6.34.1",
+        "@openai/chatkit-react": "^1.4.3",
         "@radix-ui/react-dialog": "^1.1.15",
         "@radix-ui/react-separator": "^1.1.8",
         "@radix-ui/react-slot": "^1.2.4",
@@ -585,6 +586,10 @@
     "@octokit/request-error": ["@octokit/request-error@5.1.1", "", { "dependencies": { "@octokit/types": "^13.1.0", "deprecation": "^2.0.0", "once": "^1.4.0" } }, "sha512-v9iyEQJH6ZntoENr9/yXxjuezh4My67CBSu9r6Ve/05Iu5gNgnisNWOsoJHTP6k0Rr0+HQIpnH+kyammu90q/g=="],
 
     "@octokit/types": ["@octokit/types@13.10.0", "", { "dependencies": { "@octokit/openapi-types": "^24.2.0" } }, "sha512-ifLaO34EbbPj0Xgro4G5lP5asESjwHracYJvVaPIyXMuiuXLlhic3S47cBdTb+jfODkTE5YtGCLt3Ay3+J97sA=="],
+
+    "@openai/chatkit": ["@openai/chatkit@1.5.0", "", {}, "sha512-F9G91ZNq7bmDsoP4ToDWmv1FMZx2bLZ6WHf+YsKvQ8uw+PBRdkaRGG4WlalnnRl0ekQLhVB1kNjsWcQJpzalUg=="],
+
+    "@openai/chatkit-react": ["@openai/chatkit-react@1.4.3", "", { "dependencies": { "@openai/chatkit": "1.5.0" }, "peerDependencies": { "react": ">=18", "react-dom": ">=18" } }, "sha512-Y/isbMh2CSFTtg2oL7FbmsfAnGGS6PDESQkjH9AJ42/TNGxAF53FIZM19PmrhdUq2QLkEzAf6adQ+pu8GO0Yhw=="],
 
     "@pkgjs/parseargs": ["@pkgjs/parseargs@0.11.0", "", {}, "sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg=="],
 
